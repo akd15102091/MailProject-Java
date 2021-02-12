@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>CompanyMailerProject</title>
+<style type="text/css">
+
+#heading3{
+	width:350px;
+	height:400px;
+	background-color:lightblue;
+	margin:20px;
+	padding:10px;
+	border-radius:10px;
+	margin:80px 400px 10px 1000px;
+}
+input
+{
+	margin:5px;
+	background-color:gray;
+}
+body
+{
+	background-image:url("signimg4.jpg");
+}
+</style>
+</head>
+<body >
+<div id="heading3">
+<center><font size="6" color="red"> <i><b>Registration form </b></i></font> <br></center><br>
+<form action="RegisterServlet" method="post">
+<b><i>Name  &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</i></b><input type="text" name="name"><br>
+<b><i>Email &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;</i></b><input type="email" name="email"><br>
+<b><i>Password&nbsp;&nbsp;&nbsp;</i></b><input type="password" name="password"><br>
+<b><i>Gender&nbsp; &nbsp; &nbsp; &nbsp; </i></b><input type="radio" name="gender">male
+                                         <input type="radio" name="gender">female<br>
+   <b><i>DOB&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;</i></b><input type="date" name="date"><br>           
+   <b><i>Address&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;</i></b><input type="text" name="address"><br> 
+   <b><i>City&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp; </i></b><input type="text" name="city"><br>          
+   <b><i>State&nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; </i></b><input type="text" name="state"><br>       
+   <b><i>Country &nbsp; &nbsp; </i></b><input type="country" name="country"><br>
+    <b><i>Contact No.</i></b><input type="text" name="contact"><br>     
+   <input type="submit" value="register">     
+   <input type="reset" value="clear">
+</form>
+</div>
+</body>
+</html>
